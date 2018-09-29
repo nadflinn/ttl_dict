@@ -7,5 +7,5 @@ setup(
     author="Ben Nadler",
     tests_require=['nose'],
     test_suite="tests",
-    packages=find_packages()
+    packages=find_packages(exclude=['tests'])
 )

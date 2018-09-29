@@ -87,7 +87,6 @@ class TTLDict(dict):
     def _create_background_thread(self):
         global shared_thread
         if not shared_thread:
-            print "Creating a thread"
             shared_thread = threading.Thread(target=worker, args=(self,))
             shared_thread.setDaemon(True)
             shared_thread.start()

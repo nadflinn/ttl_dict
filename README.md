@@ -90,3 +90,15 @@ Dedicated thread per dictionary:
 >>>threading.active_count()
 3
 ```
+
+### Installation
+
+```
+python setup.py install
+```
+
+### Run Tests
+
+```
+python setup.py test
+```
